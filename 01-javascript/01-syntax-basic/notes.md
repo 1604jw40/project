@@ -68,3 +68,25 @@ console.log(result);
 ```
 
 JavaScript는 `function` 키워드로 함수를 만든다.
+
+## 배열
+
+배열은 여러 값을 순서대로 담는 자료형이다.
+
+```js
+let fruits = ["Apple", "Banana"];
+
+fruits.push("Orange");
+
+console.log(fruits);
+console.log(fruits.length);
+```
+
+배열은 0번부터 시작한다.
+
+```js
+fruits[0]; // "Apple"
+fruits[1]; // "Banana"
+```
+
+`push()`는 배열의 맨 뒤에 값을 추가한다.
