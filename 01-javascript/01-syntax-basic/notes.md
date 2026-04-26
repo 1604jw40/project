@@ -53,3 +53,18 @@ for (let i = 0; i < numbers.length; i++) {
 ```
 
 배열은 0번부터 시작한다.
+
+## 함수
+
+함수는 코드를 이름으로 묶어서 다시 사용할 수 있게 만든다.
+
+```js
+function multiply(a, b) {
+  return a * b;
+}
+
+let result = multiply(4, 6);
+console.log(result);
+```
+
+JavaScript는 `function` 키워드로 함수를 만든다.
