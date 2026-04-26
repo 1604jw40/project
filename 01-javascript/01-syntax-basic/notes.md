@@ -90,3 +90,28 @@ fruits[1]; // "Banana"
 ```
 
 `push()`는 배열의 맨 뒤에 값을 추가한다.
+
+## 객체
+
+객체는 관련 있는 값을 이름으로 묶어서 표현하는 자료형이다.
+
+```js
+let product = {
+  name: "Keyboard",
+  price: 50000,
+  inStock: true,
+};
+
+console.log(product);
+console.log(product.price);
+```
+
+객체 속성은 점 표기법으로 접근할 수 있다.
+
+```js
+product.name;
+product.price;
+product.inStock;
+```
+
+객체 속성명은 정확히 일치해야 한다.
