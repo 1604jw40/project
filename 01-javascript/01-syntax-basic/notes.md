@@ -39,3 +39,17 @@ if (userAge >= 18) {
 ```
 
 JavaScript 조건문은 `{ }`로 코드 블록을 감싼다.
+
+## 반복문
+
+반복문은 같은 작업을 여러 번 실행할 때 사용한다.
+
+```js
+let numbers = [10, 20, 30, 40, 50];
+
+for (let i = 0; i < numbers.length; i++) {
+  console.log(numbers[i]);
+}
+```
+
+배열은 0번부터 시작한다.
